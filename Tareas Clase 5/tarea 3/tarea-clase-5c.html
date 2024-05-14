@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea Clase 5 C</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <style>
+        td,
+        th {
+            border: 1px solid #999;
+            padding: 0.1em 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Calcule el tiempo total de las clases!</h1>
+        <h2><strong id="resultado"></strong></h2>
+    </header>
+    <table>
+        <tr>
+            <th colspan="1">Clases</th>
+            <th>Horas</th>
+            <th>Minutos</th>
+            <th>Segundos</th>
+        </tr>
+        <tr id="clase-1">
+            <th rowspan="1">Clase 1</th>
+            <td class="horas">2</td>
+            <td class="minutos">34</td>
+            <td class="segundos">43</td>
+        </tr>
+        <tr id="clase-2">
+            <th rowspan="1">Clase 2</th>
+            <td class="horas">1</td>
+            <td class="minutos">48</td>
+            <td class="segundos">24</td>
+        </tr>
+        <tr id="clase-3">
+            <th rowspan="1">Clase 3</th>
+            <td class="horas">0</td>
+            <td class="minutos">47</td>
+            <td class="segundos">26</td>
+        </tr>
+        <tr id="clase-4">
+            <th rowspan="1">Clase 4</th>
+            <td class="horas">2</td>
+            <td class="minutos">18</td>
+            <td class="segundos">45</td>
+        </tr>
+        <tr id="clase-5">
+            <th rowspan="1">Clase 5</th>
+            <td class="horas">2</td>
+            <td class="minutos">40</td>
+            <td class="segundos">48</td>
+        </tr>
+
+    </table>
+    <div>
+        <button id="calcular-tiempo">Calcular</button>
+    </div>
+
+</body>
+
+<script src='tarea-clase-5c.js'></script>
+
+</html>
